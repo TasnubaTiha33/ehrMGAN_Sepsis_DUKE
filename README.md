@@ -101,10 +101,6 @@ statics_path      = 'statics.pkl'
 norm_stat_path    = 'norm_stats.npz'
 dim               = 223
 ```
-
-👉 You will find this config-ready data in:
-[`ehrMGAN_modified/ehrMGANdata/real/mydata`](https://prodduke-my.sharepoint.com/:f:/r/personal/ti45_duke_edu/Documents/Attachments/ehrMGAN%20code?csf=1&web=1&e=VV1dyo)
-
 ---
 
 ## 🚀 How to Train ehrMGAN
@@ -162,21 +158,6 @@ Use `Test_ehrMGAN.ipynb` to load and visualize the synthetic data. This notebook
 * Histogram comparisons
 * MMD & KL divergence calculations
 * Denormalization logic
-
----
-
-### 📤 Accessing Synthetic Data and Code
-
-* 🔗 **Synthetic Data Download**:
-  [ehrMGAN\_synthetic\_data.tar.gz (SharePoint)](https://prodduke-my.sharepoint.com/:u:/r/personal/ti45_duke_edu/Documents/Attachments/ehrMGAN_synthetic_data.tar.gz?csf=1&web=1&e=r4jKp3)
-  
-  📄 This archive contains a meta.json file with all necessary metadata about the generated synthetic dataset along with the dataset. Here, we generated 50,000 instances. 
-
-* 📂 **Modified ehrMGAN Code**:
-  [ehrMGAN\_modified Folder (SharePoint)](https://prodduke-my.sharepoint.com/:f:/r/personal/ti45_duke_edu/Documents/Attachments/ehrMGAN%20code?csf=1&web=1&e=FRzG2K)
-
-  📌 This folder contains the modified version of the code used to train ehrMGAN on the pediatric sepsis dataset.
-After cloning the root ehrMGAN repository, you will need to replace the contents of main_train.py, m3gan.py, and networks.py with the corresponding files from this folder in order to run the training pipeline correctly.
 
 ---
 
